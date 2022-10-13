@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.h-box{
+  height: 55vh;
+}
+.w-box{
+  width: 350px;
+}
+.left{
+  left: 400px;
+}
+.right{
+  right: 400px;
+}
+.h-hl {
+  height: 50px;
+}
+.w-hl{
+  width: 8rem;
+}
+.ilalum{
+  z-index: 0;
+}
+.atubangan{
+  z-index: 100;
+}
+
+/* .box{
+  transform: `${(props) => (props.clicked ? translateX(90%) : translateX(10%))}`;
+}
+   */
+
+.hl-margin{
+  margin: 30px 0 10px 0;
+}
+.hl-border{
+  border-bottom: 2PX solid #881337;
+  border-top: 2PX solid #881337;
+}
+.hl-h{
+  height: 50px;
+}
+
+
+input[type="radio"]{
+  display: none;
+}
+
+#signup:checked ~ .highlight{
+  left: 50%;
+  background-image: linear-gradient(to right, #1f2937, #881337);
+}
+#signup:checked ~ .login{
+  color: #000;
+}
+#signup:checked ~ .signup{
+  color: #fff;
+  
+}
+
+.highlight{
+  transition:all 0.8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.sulodE{
+  transition:all 0.8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.buhatE{
+  transition:all 0.8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
